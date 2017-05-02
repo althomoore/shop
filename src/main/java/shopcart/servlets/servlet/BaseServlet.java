@@ -48,7 +48,7 @@ public class BaseServlet extends HttpServlet {
     }
 
     protected String redirect(HttpServletRequest request) {
-        final String deflt = "/index.html";
+        final String deflt = "/index.mustache";
         HttpSession session = request.getSession(false);
         if (session == null) {
             return deflt;

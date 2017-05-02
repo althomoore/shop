@@ -17,7 +17,7 @@ public class MustacheRenderer {
     @SuppressWarnings("unused")
     static final Logger LOG = LoggerFactory.getLogger(MustacheRenderer.class);
 
-    private static final String TEMPLATE_ROOT = "webapp/templates";
+    private static final String TEMPLATE_ROOT = "webApp/templates";
 
     private MustacheFactory mustacheFactory;
 

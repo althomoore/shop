@@ -30,7 +30,7 @@ public class LoginServlet extends BaseServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String user = user(request);
         if (user != null) {
-            response.sendRedirect(response.encodeRedirectURL("/index.must"));
+            response.sendRedirect(response.encodeRedirectURL("/index.mustache"));
         } else {
             Map<String,Object> map = baseMap(request);
             showView(response, LOGIN_TEMPLATE, map);

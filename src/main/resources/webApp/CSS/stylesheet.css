@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: slategray;
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 75%;
+    max-width: 100%;
+}
+
+nav {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: lavender;
+}
+
+.content {
+    padding: 30px;
+}
+
+.wrap1 {
+
+
+}
+
+.wrap2 {
+
+
+
+}
